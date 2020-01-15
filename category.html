@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- https://getbootstrap.com/docs/3.4/examples/theme/# -->
+	<!-- https://fonts.google.com/?selection.family=Stardos+Stencil -->
+	<!-- Title -->
+	<title>Borrow & Carry</title>
+	<!-- Title Icon -->
+	<link rel="icon" type="img" href="path">
+	<!-- Web-Font -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Beth+Ellen|Indie+Flower|Lobster|Pacifico|Shadows+Into+Light|Teko&display=swap" rel="stylesheet">
+
+	<!-- Cascading Style Sheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!-- Java Script -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/validate.min.js"></script>
+</head>
+<body>
+	<div class="main">
+
+	<header>
+
+		<!-- Trigger the modal with a button -->
+<div class="modal fade " id="request" role="dialog">
+    <!-- Modal content-->
+    <div class="modal-dialog bg-black" style="border-radius: 30px;border: 1px solid white">
+      <div class="modal-header">
+        <button type="button" class="close bg-white text-white" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title text-white">
+        	Product name
+        </h2>
+      </div>
+      <div class="modal-body text-white container col-md-12">
+      	<div class="row">
+      		<div class="col-md-10 col-md-offset-1">
+      	<form>
+      		<h4>
+      			Do You want to borrow product ?
+      				<br>
+      		</h4>
+      				<br>
+      				<br>
+      				<p class="text-justify">
+		      			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      		</p>
+      				<br>
+      				<br>
+      				<br>
+      				<input type="checkbox" name="tc" class=""> Accept all terms & condition.
+      	</form>
+      	</div>
+  		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Borrow</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+</div>
+
+
+<div class="modal fade " id="myModal" role="dialog">
+    <!-- Modal content-->
+    <div class="modal-dialog bg-black" style="border-radius: 30px;border: 1px solid white">
+      <div class="modal-header">
+        <button type="button" class="close bg-white text-white" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title text-white">
+        	Suscribe For Any-Update
+        </h2>
+      </div>
+      <div class="modal-body text-white row">
+      	<form>
+      		<div class="col-md-12 form-group">
+      			<input type="text" placeholder="Name" name="" class="form-control">
+      		</div>
+      		<div class="col-md-12 form-group">
+      			<input type="text" placeholder="Email" name="" class="form-control">
+      		</div>
+      		<div class="col-md-12 form-group">
+      			<input type="text" placeholder="Contact" name="" class="form-control">
+      		</div>
+      	</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Suscribe</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+</div>
+		<nav class="navbar header" id="myHeader">
+			<div class="navbar-header">
+			    <a class="navbar-brand height1" href="#">
+			      	<span class="hidden" id="logo-cap" style="margin-left: -20px" class="ancher">
+						&nbsp;&nbsp;Industrial Name
+					</span>
+			    </a>
+				<button type="button" class="navbar-toggle minus collapsed" data-toggle="collapse" data-target="#navbar-collapse-minus">
+					<span class="icon-bar bg-blue"></span>
+					<span class="icon-bar bg-blue"></span>
+					<span class="icon-bar bg-blue"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-left">
+				
+			<img src="images/logo.png" class="img-responsive" height="50" width="50">
+			</div>
+			<div class="collapse navbar-collapse navbar-right" id="navbar-collapse-minus">
+			  <ul class="nav navbar-nav">
+			    <li class="active font8 home fs2"><a href="#section1" class="ancher">Home</a></li>
+			    <li class="font8 fs2"><a href="#about" class="ancher">About Me</a></li>
+			    <li class="font8 fs2"><a href="#popular" class="ancher">Popular Product</a></li>
+			    <li class="font8 fs2"><a class="ancher dropdown-toggle" type="button" data-toggle="dropdown">Category</a>
+			    	<ul class="dropdown-menu">
+			    		<li class="font8 fs2"><a href="">men</a></li>
+			    		<li class="font8 fs2"><a href="">woman</a></li>
+			    	</ul>
+			    </li>
+			    <li class="font8 fs2">
+			    	<a href="#" class="ancher dropdown-toggle" type="button" data-toggle="dropdown">
+			    		User
+			    	</a>
+			    	<ul class="dropdown-menu">
+			    		<li class="font8 fs2"><a href="">Register</a></li>
+			    		<li class="font8 fs2"><a href="">Login</a></li>
+			    	</ul>
+			    </li>
+			    <li class="font8 fs2"><a href="#contact" class="ancher">Contact Me &nbsp;&nbsp;</a></li>
+			  </ul>
+			</div>
+		</nav>
+	</header>
+	<section class="height1" id="popular">
+	<br/>
+			<br/>
+	<br/>
+			<br/>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center text-white">Shoe</h1>
+				</div>
+			</div>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-md-3" style="height: 300px;">
+					<div class="back-bg">
+						<img src="images/11.jpg" style="" class="img-thumbnail img-responsive imgs">
+						<div class="para">
+							<h3>Product name</h3>
+							<h4>Product Price</h4>
+							<p>dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+						<button class="btn btn-primary">Preview</button>
+						<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#request">Borrowed</button>
+				</div>
+				<div class="col-md-3" style="height: 300px;">
+					<div class="back-bg">
+						<img src="images/11.jpg" style="" class="img-thumbnail img-responsive imgs">
+						<div class="para">
+							<h3>Product name</h3>
+							<h4>Product Price</h4>
+							<p>dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+						<button class="btn btn-primary">Preview</button>
+						<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#request">Borrowed</button>
+				</div>
+				<div class="col-md-3" style="height: 300px;">
+					<div class="back-bg">
+						<img src="images/11.jpg" style="" class="img-thumbnail img-responsive imgs">
+						<div class="para">
+							<h3>Product name</h3>
+							<h4>Product Price</h4>
+							<p>dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+
+						<button class="btn btn-primary">Preview</button>
+						<button class="btn btn-primary pull-right" data-toggle="modal" data-target="#request">Borrowed</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center text-white">Contact</h1>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-md-4">
+					<h2 class="text-white text-center">Enquiry</h2>
+					<form data-toggle="validator" role="form" id="signupForm">
+						  <div class="form-group text-danger">
+						    <label for="inputName" class="control-label text-white">Name</label>
+						    <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputEmail" class="control-label text-white">Email</label>
+						    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+						    <div class="help-block with-errors text-danger"></div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputEmail" class="control-label text-white">Message</label>
+						    <textarea class="form-control" id="inputEmail" placeholder="Write text here..." data-error="Bruh, that email address is invalid" required rows="5"></textarea>
+						    <div class="help-block with-errors text-danger"></div>
+						  </div>
+						  <div class="form-group">
+						    <button type="submit" class="btn btn-primary">Submit</button>
+						  </div>
+					</form>
+				</div>
+				<div class="col-md-6 col-md-offset-2">
+					<h2 class="text-white text-center">Location</h2>
+						<br>
+						<br>
+						<br>
+					<div class="container">
+
+						<div  class="row">
+							<div class="col-md-12">
+						<!-- <img src="images/3.png" class="img-responsive"> -->
+						<table class="table text-white" align="center" style="width: 100%">
+							<tr>
+								<th>Address </th>
+								<td>123,xyz colony,area,state</td>
+							</tr>
+							<tr>
+								<th>Email </th>
+								<td>xyz123@xyz.com</td>
+							</tr>
+							<tr>
+								<th>Contact </th>
+								<td>9999999999</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	</div>
+</body>
+<script src="js/javascript.js">
+</script>
+</html>
+
+<!-- Form -->
+		<!-- <div class="col-md-6">
+					<h2 class="text-white">Enquiry</h2>
+					<form data-toggle="validator" role="form" id="signupForm">
+						  <div class="form-group text-danger">
+						    <label for="inputName" class="control-label text-white">Name</label>
+						    <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+						  </div>
+						  <div class="form-group  text-danger">
+						    <label for="inputTwitter" class="control-label text-white">Email</label>
+						      <input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control" id="inputTwitter" placeholder="Email" required>
+						    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+						    <div class="help-block with-errors text-white">Hey look, this one has feedback icons!</div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputEmail" class="control-label text-white">Email</label>
+						    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+						    <div class="help-block with-errors text-danger"></div>
+						  </div>
+						  <div class="form-group">
+						    <label for="inputPassword" class="control-label text-white">Password</label>
+						    <div class="form-inline row">
+						      <div class="form-group col-sm-6">
+						        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+						        <div class="help-block text-danger">Minimum of 6 characters</div>
+						      </div>
+						      <div class="form-group col-sm-6">
+						        <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
+						        <div class="help-block with-errors text-danger"></div>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="radio">
+						      <label>
+						        <input type="radio" name="underwear" required>
+						        Boxers
+						      </label>
+						    </div>
+						    <div class="radio">
+						      <label>
+						        <input type="radio" name="underwear" required>
+						        Briefs
+						      </label>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="checkbox">
+						      <label>
+						        <input type="checkbox" id="terms" data-error="Before you wreck yourself" required>
+						        Check yourself
+						      </label>
+						      <div class="help-block with-errors"></div>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <button type="submit" class="btn btn-primary">Submit</button>
+						  </div>
+					</form>
+				</div> -->

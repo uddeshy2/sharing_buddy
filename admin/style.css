@@ -1,0 +1,46 @@
+body {
+	background-color: pink;
+	font-family: arial;
+	text-transform: capitalize;
+}
+
+ .form{
+ 	text-align: center;
+ }
+input {
+	border-radius: 4px;
+		width: 200px;
+		height: 30px;
+		border: 1px solid;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		padding: 4px 20px;
+}
+button {
+	background-color: black;
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-decoration: none;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  border-radius: 8px
+}
+
+ .admin-nav{
+ 	text-align: center;
+ 	margin-top: 40px;
+ 	font-size: 50px;
+ }
+ .admin-nav ul{
+ 	list-style-type: none;
+ }
+
+ .admin-nav ul li{
+ 	display: block;
+ }
+
+  .admin-nav ul li a{
+ 	text-decoration: none;
+ 	text-transform: capitalize;
+ }
